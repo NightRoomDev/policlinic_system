@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+.title-logo {
+    font-family: 'Oswald', sans-serif;
+}
+
+.navbar-collapse a {
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+}
+
+.navbar-collapse a:hover {
+    color: #ff4646 !important;
+    border-bottom: 3px solid #ff4646;
+}
